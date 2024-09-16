@@ -20,7 +20,7 @@ h1 {
 
 .conteudo {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .definicao {
