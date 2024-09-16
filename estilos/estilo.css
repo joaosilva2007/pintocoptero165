@@ -6,10 +6,6 @@
     --fonte-titulo: #243a69; 
 }
 
-body {
-    background-color: var(--fundo-primario);
-}
-
 h1 {
     color: var(--fonte-titulo);
 }
@@ -19,6 +15,7 @@ h1 {
 }
 
 .conteudo {
+    background-color: var(--fundo-primario);
     display: flex;
     flex-direction: row;
 }
