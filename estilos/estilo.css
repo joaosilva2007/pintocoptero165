@@ -20,6 +20,7 @@ h1 {
 
 .conteudo {
     display: flex;
+    flex-direction: column;
 }
 
 .definicao {
@@ -34,6 +35,15 @@ h1 {
 
 .info {
     width: 100vw;
+}
+
+.rodape {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--fundo-secundario);
+    color: var(--fonte-texto);
+    text-align: center;
 }
 
 .menu {
@@ -124,13 +134,4 @@ h1 {
 .side-menu:checked~.hamburger .hamb-line::after {
     transform: rotate(+45deg);
     top: 0;
-}
-
-.rodape {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: var(--fundo-secundario);
-    color: var(--fonte-texto);
-    text-align: center;
 }
