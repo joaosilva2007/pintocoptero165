@@ -2,21 +2,17 @@
     --fundo-primario: #d4cdc5;
     --fundo-secundario: #5b88a5;
     --fundo-terciario: rgb(209, 240, 255);
-    --fonte-texto: #191013; 
-    --fonte-titulo: #243a69; 
+    --fonte-texto: #191013;
+    --fonte-titulo: #243a69;
+}
+
+body {
+  background-color: var(--fundo-primario);
+  margin: 0;
 }
 
 h1 {
     color: var(--fonte-titulo);
-}
-
-.info {
-    color: var(--fonte-texto);
-}
-
-.conteudo {
-    background-color: var(--fundo-primario);
-    display: block;
 }
 
 .definicao {
@@ -25,12 +21,13 @@ h1 {
     grid-area: def;
 }
 
-.img-definicao {
-    display: none;
+.info {
+    color: var(--fonte-texto);
+    width: 50vw;
 }
 
-.info {
-    width: 100vw;
+.img-definicao {
+    display: none;
 }
 
 .rodape {
