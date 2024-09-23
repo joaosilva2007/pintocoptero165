@@ -38,27 +38,27 @@ let entrevista2 = {
     questoes: [
         {
             p1: "Qual profissão você pretende exercer?",
-            r1: "Cientista da computação" 
+            r1: "Biotecnólogo" 
         },
         {
             p2: "O que você tem feito ou fará para alcançar sua profissão?",
-            r2: "Estudar bastante"
+            r2: "tenho executado uma rotina de estudos"
         },
         {
             p3: "Quais motivos levaram você a escolher essa profissão?",
-            r3: "Por estar sempre inserido no meio digital"
+            r3: "Me interessei pela profissão após conhecê-la durante as aulas de biotecnologia no 2°ano, além de biologia ser uma área de interresse minha"
         },
         {
             p4: "Como você acha que vai estar sua profissão daqui a 10 anos?",
-            r4: "Em 5 anos, aumentará o mercado de trabalho e, em 10 anos, irá saturar e demandará um maior nível técnico"
+            r4: "Acredito que vá haver um leve aumento na disponibilidade de vagas"
         },
         {
             p5: "O que é o sucesso para você e quando acha que o alcançará?",
-            r5: "O sucesso será quando eu tiver uma carreia estabilizada e poder ter mais tempo de lazer com a minha família, sem se preocupar com a renda"
+            r5: "O sucesso será quando eu tiver uma carreia estabilizada e poder ter mais tempo de lazer, sem precisar me preocupar com a renda"
         },
         {
             p6: "Você escolheria o mesmo itinerário formativo? Como isso contribuiria para sua vida profissional?",
-            r6: "Sim, porque não faz diferença nenhuma"
+            r6: "Sim, por meio dele pude conhecer a profissão escolhida"
         },
         {
             p7: "Você acha que a pressão social influencia em suas escolhas acadêmicas?",
@@ -66,7 +66,7 @@ let entrevista2 = {
         },
         {
             p8: "Qual pessoa que mais influenciou em sua decisão profissional?",
-            r8: "Familiares"
+            r8: "Minha mãe"
         },
     ]
 }
